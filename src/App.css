@@ -1,0 +1,122 @@
+body {
+  width: 100vw;
+  background-color: ghostwhite;
+}
+
+.App {
+  text-align: center;
+  margin: 0px;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+  background-color: white;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#social-div {
+  height: 100px;
+  flex-direction: row;
+  align-items: center;
+}
+
+#description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#desc-wrapper {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px;
+}
+
+/* TYPOGRAPHY */
+h1 {
+  color: rgb(231, 0, 0);
+  font-family: 'Signika', sans-serif;
+  font-weight: 400;
+  font-size: 6em;
+  margin: 20px;
+}
+
+h5 {
+  color: rgb(231, 0, 0);
+  margin: 20px;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  font-family: 'Signika', sans-serif;
+}
+  
+.social {
+  color: #444;
+  text-decoration: none;
+  margin: 20px;
+  display: inline-block;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5em;
+}
+
+.social:hover {
+  color: rgb(255, 39, 1);
+  cursor: pointer;
+  text-shadow: 1px 1px 5px #ddd;
+}
+
+.inline-link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(231, 0, 0);
+}
+
+#paragraph-rule {
+  align-self: center;
+  border-bottom: 1px solid rgb(231, 0, 0);
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  margin: 10px;
+  line-height: 1.5em;
+}
+
+.description {
+
+}
+
+@media screen and (max-width: 475px){
+  h1 {
+    font-size: 3em;
+  }
+  #description {
+    flex-direction: column;
+  }
+  #desc-wrapper {
+    margin: 5px;
+    width: 90vw;
+  }
+  #paragraph-rule {
+    margin: 30px;
+  }
+}
